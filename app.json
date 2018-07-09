@@ -9,18 +9,18 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "心理讲师素材库",
     "navigationBarTextStyle":"black"
   },
   "tabBar": {
     "list": [
       {
-          "pagePath": "pages/sucai/sucai",
-          "text": "首页"
+        "pagePath": "pages/sucai/sucai",
+        "text": "首页"
       },
       {
         "pagePath": "pages/discover/discover",
-        "text": "发现"
+        "text": "随便逛逛"
       },
       {
         "pagePath": "pages/logs/logs",

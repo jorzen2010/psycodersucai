@@ -5,6 +5,25 @@ page{
 .whitebg{
   background-color: #ffffff;
 }
+.head-title{
+  font-size: 14pt;
+  color: #353535;
+}
+.head-title-small{
+  font-size: 10pt;
+  line-height: 20pt;
+  color: #888888;
+}
+.content-title{
+  font-size: 13pt;
+  line-height: 18pt;
+  color: #353535;
+}
+.content-title-small{
+  font-size: 10pt;
+  line-height: 14pt;
+  color: #888888;
+}
 /* .container {
   height: 100%;
   display: flex;
