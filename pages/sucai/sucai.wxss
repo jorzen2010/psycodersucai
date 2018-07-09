@@ -56,4 +56,23 @@
   padding: 0px 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+}
+.list_item_content_bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #cccccc;
+  font-size: 10pt;
+}
+.content-tags{
+  background-color: #cccccc;
+  color: #ffffff;
+  font-size: 8pt;
+  padding: 3px;
+  margin-right: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 15% 15%;
+
 }

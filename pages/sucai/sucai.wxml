@@ -21,20 +21,33 @@
 
 
 <view class='listContainer whitebg'>
-<view class='listContainer_title'>
-<text class='head-title'>猜你喜欢</text>
-<text class='head-title-small'>全部</text>
-</view>
-<view class='listContainer_content'>
-<view class='list_item'>
-<view>
- <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode='scaleToFill' class='list_item_img' />
-</view>
-<view class='list_item_content'>
-<text class='content-title'>这里要写一个标题</text>
-<text class='content-title-small'>这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介</text>
-<text>这里要写标签</text>
-</view>
-</view>
-</view>
+    <view class='listContainer_title'>
+    <text class='head-title'>猜你喜欢</text>
+    <text class='head-title-small'>全部</text>
+    </view>
+
+  <view class='listContainer_content'>
+      <view class='list_item'>
+          <view>
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode='scaleToFill' class='list_item_img' />
+          </view>
+              <view class='list_item_content'>
+
+               <view>
+                  <text class='content-title'>这里要写一个标题</text>
+                  <text class='content-title-small'>这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介</text>
+                  <view>
+                      <text class='content-tags'>亲自关系</text>
+                      <text class='content-tags'>夫妻关系</text>
+      
+                  </view>
+                </view>
+                <view class='list_item_content_bottom'>
+                <text>18789次下载</text>
+                <text>2018-9-9更新</text>
+                </view>
+
+              </view>
+          </view>
+      </view>
 </view>
