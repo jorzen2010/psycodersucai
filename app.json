@@ -2,9 +2,9 @@
   "pages":[
     "pages/sucai/sucai",
     "pages/index/index",
-    "pages/logs/logs",
     "pages/discover/discover",
-    "pages/usercenter/usercenter"
+    "pages/usercenter/usercenter",
+    "pages/search/search"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -23,7 +23,7 @@
         "text": "随便逛逛"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/usercenter/usercenter",
         "text": "我的"
       }
     ]

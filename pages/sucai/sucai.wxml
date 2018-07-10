@@ -1,5 +1,6 @@
+<import src="../../templates/bottom/bottom.wxml"/>
 <view class='searchbox whitebg'>
-<input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder'/>
+<input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder' bindtap='search'/>
 </view>
 <swiper indicator-dots="false"
   autoplay="true" interval="5000" duration="1000" class='swipercontainer whitebg'>
@@ -33,21 +34,60 @@
           </view>
               <view class='list_item_content'>
 
-               <view>
+               <view class='list_item_content_top'>
                   <text class='content-title'>这里要写一个标题</text>
                   <text class='content-title-small'>这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介</text>
-                  <view>
-                      <text class='content-tags'>亲自关系</text>
-                      <text class='content-tags'>夫妻关系</text>
-      
-                  </view>
+                
                 </view>
                 <view class='list_item_content_bottom'>
-                <text>18789次下载</text>
-                <text>2018-9-9更新</text>
+                 <text class='content-tags'>PPT内容</text>
+                <text>5289次下载</text>
                 </view>
 
               </view>
           </view>
-      </view>
+
+          <view class='list_item'>
+          <view>
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode='scaleToFill' class='list_item_img' />
+          </view>
+              <view class='list_item_content'>
+
+               <view class='list_item_content_top'>
+                  <text class='content-title'>这里要写一个标题</text>
+                  <text class='content-title-small'>这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介</text>
+                
+                </view>
+                <view class='list_item_content_bottom'>
+                 <text class='content-tags'>PPT格式</text>
+                <text>5289次下载</text>
+                </view>
+
+              </view>
+          </view>
+
+          <view class='list_item'>
+          <view>
+          <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" mode='scaleToFill' class='list_item_img' />
+          </view>
+              <view class='list_item_content'>
+
+               <view class='list_item_content_top'>
+                  <text class='content-title'>这里要写一个标题</text>
+                  <text class='content-title-small'>这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介这里要写一个简介</text>
+                
+                </view>
+                <view class='list_item_content_bottom'>
+                 <text class='content-tags'>图片素材</text>
+                <text>5289次使用</text>
+                </view>
+
+              </view>
+          </view>
+
+
+  </view>
+      
 </view>
+
+<template is="bottom"/>

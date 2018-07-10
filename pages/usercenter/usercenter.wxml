@@ -1,2 +1,61 @@
-<!--pages/usercenter/usercenter.wxml-->
-<text>pages/usercenter/usercenter.wxml</text>
+<view class='avatarcontainer whitebg'>
+<image src='../../src/images/avatar.jpg' class='userinfo-avatar'></image>
+<text class='userinfo-userNickName'>会写代码的心理咨询师</text>
+</view>
+
+<view class='listcontainer whitebg'>
+
+<view class='list-item'>
+<view class='list-item-title'>
+<image src='../../src/images/SLianxiren.png' class='list-item-icon'></image>
+<text>关于软件</text>
+</view>
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+</view>
+
+</view>
+
+
+<view class='listcontainer whitebg'>
+
+<view class='list-item'>
+<view class='list-item-title'>
+<image src='../../src/images/SLianxiren.png' class='list-item-icon'></image>
+<text>关于软件</text>
+</view>
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+</view>
+
+<view class='list-item'>
+<view class='list-item-title'>
+<image src='../../src/images/SLianxiren.png' class='list-item-icon'></image>
+<text>关于软件</text>
+</view>
+
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+
+</view>
+
+<view class='list-item'>
+<view class='list-item-title'>
+<image src='../../src/images/SLianxiren.png' class='list-item-icon'></image>
+<text>关于软件</text>
+</view>
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+</view>
+
+
+</view>
+
+<view class='listcontainer whitebg'>
+
+
+<view class='list-item'>
+<view class='list-item-title'>
+<image src='../../src/images/SLianxiren.png' class='list-item-icon'></image>
+<text>关于软件</text>
+</view>
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+</view>
+
+</view>

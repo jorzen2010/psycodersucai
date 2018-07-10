@@ -1,2 +1,20 @@
-<!--pages/discover/discover.wxml-->
-<text>pages/discover/discover.wxml</text>
+
+<scroll-view scroll-x="true" class='scollcontainer whitebg'>
+    <view class='scrollitem'>全部</view>
+    <view class='scrollitem'>图片素材</view>
+    <view class='scrollitem'>PPT素材</view>
+    <view class='scrollitem'>PPT内容</view>
+    <view class='scrollitem'>领导力</view>
+    <view class='scrollitem'>两性关系</view>
+</scroll-view>
+
+<view class='whitebg toppaixu'>
+排序
+</view>
+
+
+
+<view style='padding-top:80px; height:800px'>
+
+
+</view>

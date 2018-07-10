@@ -15,15 +15,18 @@ page{
   color: #888888;
 }
 .content-title{
-  font-size: 13pt;
-  line-height: 18pt;
+  font-size: 12pt;
+  line-height: 25pt;
   color: #353535;
+  font-weight: 600;
 }
 .content-title-small{
   font-size: 10pt;
   line-height: 14pt;
   color: #888888;
 }
+
+
 /* .container {
   height: 100%;
   display: flex;

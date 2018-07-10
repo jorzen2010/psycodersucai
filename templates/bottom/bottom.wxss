@@ -1,0 +1,22 @@
+.pagebottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0px;
+
+}
+
+.pagebottom-logo{
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 0;
+  color: #888888;
+}
+.pagebottom-title{
+  margin: 0;
+  padding: 5px 0px;
+  font-size: 14px;
+  color: #888888;
+}

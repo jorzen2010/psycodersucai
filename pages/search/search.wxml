@@ -1,0 +1,10 @@
+<view class='searchbox whitebg'>
+<input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder' auto-focus='true'/>
+</view>
+<view>
+分类搜索
+</view>
+
+<view>
+热门搜索
+</view>

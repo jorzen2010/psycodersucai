@@ -1,4 +1,5 @@
 /* pages/sucai/sucai.wxss */
+@import "../../templates/bottom/bottom.wxss";
 .searchbox{
   border: 1px solid #cccccc;
 }
@@ -42,7 +43,7 @@
   padding-right: 10px;
 }
 .list_item{
-  margin: 5px;
+  margin: 5px 5px 20px 5px;
   display: flex;
   flex-direction: row;
 }
@@ -53,11 +54,15 @@
   border-radius: 5% 5%;
 }
 .list_item_content{
-  padding: 0px 5px;
+  padding: 0px 5px 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 120px;
+}
+.list_item_content_top{
+  display: flex;
+  flex-direction: column;
 }
 .list_item_content_bottom{
   display: flex;
@@ -70,9 +75,9 @@
   background-color: #cccccc;
   color: #ffffff;
   font-size: 8pt;
-  padding: 3px;
+  padding: 1px 2px 1px 2px;
   margin-right: 5px;
   border: 1px solid #cccccc;
-  border-radius: 15% 15%;
+  border-radius: 5000px;
 
 }
