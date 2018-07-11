@@ -12,12 +12,12 @@
 </swiper>
 
 <scroll-view scroll-x="true" class='scollcontainer whitebg'>
-    <view class='scrollitem'>全部</view>
-    <view class='scrollitem'>亲子关系</view>
-    <view class='scrollitem'>夫妻关系</view>
-    <view class='scrollitem'>职场规划</view>
-    <view class='scrollitem'>领导力</view>
-    <view class='scrollitem'>两性关系</view>
+    <view class='scrollitem'><image src="../../src/images/dt1.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/dt2.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/dt3.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/dt4.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/dt1.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/dt2.png" class='scrollitem-img'></image></view>
 </scroll-view>
 
 

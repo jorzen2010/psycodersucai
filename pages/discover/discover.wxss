@@ -10,14 +10,18 @@
 .scrollitem{
   width: 80px;
   height: 30px;
-  border: 1px solid #cccccc;
   margin: 3px;
   display: inline-block;
-  border-radius: 5% 5%;
-  
+}
+
+.scrollitem-img{
+  width: 80px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
 }
 .toppaixu{
-  padding:45px 5px 5px 5px;
+  padding:50px 5px 5px 5px;
   z-index: 998;
   position: fixed;
   width: 100%;

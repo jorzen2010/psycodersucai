@@ -1,11 +1,11 @@
 
 <scroll-view scroll-x="true" class='scollcontainer whitebg'>
-    <view class='scrollitem'>全部</view>
-    <view class='scrollitem'>图片素材</view>
-    <view class='scrollitem'>PPT素材</view>
-    <view class='scrollitem'>PPT内容</view>
-    <view class='scrollitem'>领导力</view>
-    <view class='scrollitem'>两性关系</view>
+    <view class='scrollitem'><image src="../../src/images/2.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/3.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/4.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/2.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/3.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/4.png" class='scrollitem-img'></image></view>
 </scroll-view>
 
 <view class='whitebg toppaixu'>

@@ -8,7 +8,7 @@
 <view class='list-item'>
 <view class='list-item-title'>
 <image src='../../src/images/SLianxiren.png' class='list-item-icon'></image>
-<text>关于软件</text>
+<text>会员申请续费</text>
 </view>
 <image src='../../src/images/more.png' class='list-item-icon'></image>
 </view>
@@ -21,7 +21,7 @@
 <view class='list-item'>
 <view class='list-item-title'>
 <image src='../../src/images/SLianxiren.png' class='list-item-icon'></image>
-<text>关于软件</text>
+<text>我的收藏</text>
 </view>
 <image src='../../src/images/more.png' class='list-item-icon'></image>
 </view>
