@@ -1,6 +1,6 @@
 <import src="../../templates/bottom/bottom.wxml"/>
 <view class='searchbox whitebg'>
-<input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder' bindtap='search'/>
+<image src="../../src/images/search.png" class='search-img'></image><input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder' bindtap='search' class='searchinput'/>
 </view>
 <swiper indicator-dots="false"
   autoplay="true" interval="5000" duration="1000" class='swipercontainer whitebg'>
@@ -16,8 +16,8 @@
     <view class='scrollitem'><image src="../../src/images/dt2.png" class='scrollitem-img'></image></view>
     <view class='scrollitem'><image src="../../src/images/dt3.png" class='scrollitem-img'></image></view>
     <view class='scrollitem'><image src="../../src/images/dt4.png" class='scrollitem-img'></image></view>
-    <view class='scrollitem'><image src="../../src/images/dt1.png" class='scrollitem-img'></image></view>
-    <view class='scrollitem'><image src="../../src/images/dt2.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/dt5.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem'><image src="../../src/images/dt6.png" class='scrollitem-img'></image></view>
 </scroll-view>
 
 

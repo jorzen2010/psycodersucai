@@ -24,6 +24,10 @@
   padding: 0px;
   margin: 0px;
 }
+.list-item-text{
+  color: #353535;
+  padding-left: 15px;
+}
 
 .avatarcontainer{
   padding: 10px;
