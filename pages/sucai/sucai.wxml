@@ -1,3 +1,6 @@
+
+
+
 <import src="../../templates/bottom/bottom.wxml"/>
 <view class='searchbox whitebg'>
 <image src="../../src/images/search.png" class='search-img'></image><input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder' bindtap='search' class='searchinput'/>

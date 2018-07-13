@@ -16,6 +16,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
+    wx.onAccelerometerChange(function(res){
+      if (res.x > 0.7 && res.y > 0.7) {
+      console.log('摇一摇成功'+res.x+res.y+res.z);
+      }
+    })
   
   },
 
