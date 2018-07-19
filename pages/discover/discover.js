@@ -1,17 +1,42 @@
-// pages/discover/discover.js
+const app = getApp()
+const sucaipromise = require('../../utils/sucaipromise.js')
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    array: ['热度', '受欢迎度', '收藏人数'],
+    index: 0,
+    pagecount:0,
+    sclist:[],
+    url: app.globalData.apiUrl
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var _this=this;
+    wx.request({
+      url: app.globalData.apiUrl + "/SucaiApi/GetJKSucaiList",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      success:function(res){
+        _this.setData({
+          pagecount: res.data.pagecount,
+        });
+        Promise.all(res.data.jksucai.map(item => sucaipromise.getSucaiById(item.Id)))
+          .then(function (result) {
+            _this.setData({
+              sclist: result,
+            });
+            console.log(result);
+          });
+
+      },
+    })
   
   },
 
@@ -62,5 +87,11 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+  bindPickerChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value
+    })
+  },
 })

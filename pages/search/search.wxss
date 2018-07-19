@@ -1,1 +1,25 @@
 /* pages/search/search.wxss */
+page{
+  background-color: #ffffff;
+}
+.catetitle{
+  margin-top: 15px ;
+  margin-bottom: 15px ;
+}
+.catetitle text{
+  padding: 5px;
+  font-size: 12pt;
+  font-weight: 400;
+  color: #353535;
+  margin: 10px;
+}
+.catecontent text{
+  margin: 0px 10px;
+  font-size: 10pt;
+  color: #ffffff;
+  padding: 3px;
+  line-height: 35px;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+  border-radius: 600px;
+}

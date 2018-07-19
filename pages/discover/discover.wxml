@@ -1,4 +1,3 @@
-
 <scroll-view scroll-x="true" class='scollcontainer whitebg'>
     <view class='scrollitem'><image src="../../src/images/2.png" class='scrollitem-img'></image></view>
     <view class='scrollitem'><image src="../../src/images/3.png" class='scrollitem-img'></image></view>
@@ -9,12 +8,39 @@
 </scroll-view>
 
 <view class='whitebg toppaixu'>
-排序
+<text>排序</text>
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" mode="selector">
+    <view class="picker">
+      按{{array[index]}}排序 <image src='../../src/images/xx.png'></image>
+    </view>
+  </picker>
 </view>
 
+ <view class='listContainer'>
+<block wx:for="{{sclist}}" wx:key="Id">
+
+      <view class='list_item'>
+          <view>
+          <image src="{{url}}{{item.Cover}}" mode='scaleToFill' class='list_item_img' />
+          </view>
+              <view class='list_item_content'>
+
+                <view class='list_item_content_top'>
+                  <text class='content-title'>{{item.Title}}</text>
+                  <text class='content-title-small'>{{item.Info}}</text> 
+                </view>
+                <view class='list_item_content_bottom'>
+                  <text class='content-tags'>{{item.Tags}}</text>
+                  <text>5289次下载</text>
+                </view>
+
+              </view>
+          </view>
+</block>
 
 
-<view style='padding-top:80px; height:800px'>
 
 
-</view>
+  </view>
+
+

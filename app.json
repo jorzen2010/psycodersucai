@@ -17,15 +17,21 @@
     "list": [
       {
         "pagePath": "pages/sucai/sucai",
-        "text": "首页"
+        "text": "首页",
+        "selectedIconPath": "src/images/indexfocus.png",
+        "iconPath": "src/images/index.png"
       },
       {
         "pagePath": "pages/discover/discover",
-        "text": "随便逛逛"
+        "text": "随便逛逛",
+        "selectedIconPath": "src/images/discoverfocus.png",
+        "iconPath": "src/images/discover.png"
       },
       {
         "pagePath": "pages/usercenter/usercenter",
-        "text": "我的"
+        "text": "我的",
+        "selectedIconPath": "src/images/myfocus.png",
+        "iconPath": "src/images/my.png"
       }
     ]
   }

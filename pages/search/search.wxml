@@ -1,10 +1,30 @@
 <view class='searchbox whitebg'>
-<input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder' auto-focus='true'/>
-</view>
-<view>
-分类搜索
+<image src="../../src/images/search.png" class='search-img'></image><input placeholder="请输入关键词搜索" confirm-type='search' placeholder-class='searchplaceholder' class='searchinput' focus='true'/>
 </view>
 
-<view>
-热门搜索
+<view  class='catetitle'>
+<text>搜索历史</text>
+</view>
+
+
+<view class='catecontent'>
+<text>案例素材</text> <text>文件素材</text> <text>视频素材</text> <text>音频素材</text> 
+</view>
+
+
+<view  class='catetitle'>
+<text>分类搜索</text>
+</view>
+
+
+<view class='catecontent'>
+<text>案例素材</text> <text>文件素材</text> <text>视频素材</text> <text>音频素材</text> 
+</view>
+
+<view  class='catetitle'>
+<text>热门搜索</text>
+</view>
+
+<view class='catecontent'>
+<text>亲子关系</text> <text>亲密关系</text> <text>领导力</text> <text>两性关系</text> 
 </view>

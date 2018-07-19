@@ -27,12 +27,30 @@ page{
 }
 
 
-/* .container {
-  height: 100%;
+
+
+.searchbox{
+  border: 1px solid #efefef;
+  height: 30px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-}  */
+  background-color: #efefef;
+  padding: 3px;
+}
+.search-img{
+  height: 25px;
+  width: 25px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #ffffff;
+}
+.searchinput{
+  background-color: #ffffff;
+  border-radius: 0px 5px 5px 0px;
+  height: 25px;
+  width: 100%;
+}
+.searchplaceholder{
+  font-size: 12px;
+  text-align: center;
+}
