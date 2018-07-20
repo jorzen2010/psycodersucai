@@ -1,4 +1,5 @@
-// pages/sucai/sucai.js
+const app = getApp()
+const sucaipromise = require('../../utils/sucaipromise.js')
 Page({
 
   /**
@@ -10,18 +11,19 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
+    sclist:[],
+    url: app.globalData.apiUrl
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var _this=this;
+     _this.GetTopSucai();
 
-    wx.onAccelerometerChange(function(res){
-      if (res.x > 0.7 && res.y > 0.7) {
-      console.log('摇一摇成功'+res.x+res.y+res.z);
-      }
-    })
+
+
   
   },
 
@@ -77,5 +79,25 @@ Page({
     wx.navigateTo({
       url: '../../pages/search/search',
     })
-  }
+  },
+  GetTopSucai:function(){
+    var _this = this;
+    wx.request({
+      url: app.globalData.apiUrl + "/SucaiApi/GetTopJKSucai?num=3&table=JKSucai&where=Price=0&orderby=Id Desc",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      success: function (res) {
+        Promise.all(res.data.jksucai.map(item => sucaipromise.getSucaiById(item.Id)))
+          .then(function (result) {
+            _this.setData({
+              sclist: result,
+            });
+            console.log(result);
+          });
+
+      },
+    })
+  },
+
 })

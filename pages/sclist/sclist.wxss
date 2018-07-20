@@ -1,0 +1,11 @@
+@import "../../templates/topnav/topnav.wxss";
+page{
+  background-color: #ffffff;
+}
+.head-title{
+  border-left: 0px solid #576b95;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+

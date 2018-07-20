@@ -1,14 +1,14 @@
 <scroll-view scroll-x="true" class='scollcontainer whitebg'>
-    <view class='scrollitem'><image src="../../src/images/2.png" class='scrollitem-img'></image></view>
-    <view class='scrollitem'><image src="../../src/images/3.png" class='scrollitem-img'></image></view>
-    <view class='scrollitem'><image src="../../src/images/4.png" class='scrollitem-img'></image></view>
-    <view class='scrollitem'><image src="../../src/images/2.png" class='scrollitem-img'></image></view>
-    <view class='scrollitem'><image src="../../src/images/3.png" class='scrollitem-img'></image></view>
-    <view class='scrollitem'><image src="../../src/images/4.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem' bindtap='navsucai' id='10' data-title='PPT内容素材'><image src="../../src/images/2.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem' bindtap='navsucai' id='11' data-title='团体活动游戏'><image src="../../src/images/3.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem' bindtap='navsucai' id='12' data-title='故事案例素材'><image src="../../src/images/4.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem' bindtap='navsucai' id='13' data-title='PPT内容素材'><image src="../../src/images/2.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem' bindtap='navsucai' id='14' data-title='视频素材'><image src="../../src/images/3.png" class='scrollitem-img'></image></view>
+    <view class='scrollitem' bindtap='navsucai' id='15' data-title='音频素材'><image src="../../src/images/4.png" class='scrollitem-img'></image></view>
 </scroll-view>
 
 <view class='whitebg toppaixu'>
-<text>排序</text>
+<text bindtap='NavGo'>排序</text>
 <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" mode="selector">
     <view class="picker">
       按{{array[index]}}排序 <image src='../../src/images/xx.png'></image>

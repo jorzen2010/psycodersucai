@@ -4,7 +4,8 @@
     "pages/index/index",
     "pages/discover/discover",
     "pages/usercenter/usercenter",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/sclist/sclist"
   ],
   "window":{
     "backgroundTextStyle":"light",

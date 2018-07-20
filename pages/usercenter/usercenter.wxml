@@ -52,40 +52,6 @@
 <view class='list-item'>
 <view class='list-item-title'>
 <image src='../../src/images/tuijian.png' class='list-item-icon'></image>
-<text class='list-item-text'>通知中心</text>
-</view>
-
-<image src='../../src/images/more.png' class='list-item-icon'></image>
-
-</view>
-
-<view class='list-item'>
-<view class='list-item-title'>
-<image src='../../src/images/tuijian.png' class='list-item-icon'></image>
-<text class='list-item-text'>推荐给好友</text>
-</view>
-
-<image src='../../src/images/more.png' class='list-item-icon'></image>
-
-</view>
-
-<view class='list-item'>
-<view class='list-item-title'>
-<image src='../../src/images/help.png' class='list-item-icon'></image>
-<text class='list-item-text'>帮助中心</text>
-</view>
-<image src='../../src/images/more.png' class='list-item-icon'></image>
-</view>
-
-</view>
-
-<view class='listcontainer whitebg'>
-
-
-
-<view class='list-item'>
-<view class='list-item-title'>
-<image src='../../src/images/tuijian.png' class='list-item-icon'></image>
 <text class='list-item-text'>账号设置</text>
 </view>
 
@@ -95,10 +61,46 @@
 
 <view class='list-item'>
 <view class='list-item-title'>
+<image src='../../src/images/tuijian.png' class='list-item-icon'></image>
+<text class='list-item-text'>通知中心</text>
+</view>
+
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+
+</view>
+
+
+
+<view class='list-item'>
+<view class='list-item-title'>
 <image src='../../src/images/help.png' class='list-item-icon'></image>
-<text class='list-item-text'>退出登录</text>
+<text class='list-item-text'>帮助中心</text>
 </view>
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+</view>
+
+
+<view class='list-item'>
+<view class='list-item-title'>
+<image src='../../src/images/help.png' class='list-item-icon'></image>
+<button open-type="share">帮助中心</button>
+</view>
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+</view>
+
+
+
 
 </view>
 
-</view>
+
+
+
+
+
+
+
+
+
+
+

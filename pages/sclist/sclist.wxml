@@ -1,0 +1,27 @@
+ <view class='listContainer'>
+  <view class='listContainer_title'>
+    <text class='head-title'>{{title}}</text>
+    </view>
+<block wx:for="{{sclist}}" wx:key="Id">
+
+      <view class='list_item'>
+          <view>
+          <image src="{{url}}{{item.Cover}}" mode='scaleToFill' class='list_item_img' />
+          </view>
+              <view class='list_item_content'>
+
+                <view class='list_item_content_top'>
+                  <text class='content-title'>{{item.Title}}</text>
+                  <text class='content-title-small'>{{item.Info}}</text> 
+                </view>
+                <view class='list_item_content_bottom'>
+                  <text class='content-tags'>{{item.Tags}}</text>
+                  <text>5289次下载</text>
+                </view>
+
+              </view>
+          </view>
+</block>
+</view>
+
+

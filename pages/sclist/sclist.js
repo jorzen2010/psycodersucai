@@ -6,8 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    array: ['热度', '受欢迎度', '收藏人数'],
-    index: 0,
+    title:'全部',
     pagecount:0,
     sclist:[],
     url: app.globalData.apiUrl
@@ -16,28 +15,14 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {  
+  onLoad: function (options) {
     var _this=this;
-    wx.request({
-      url: app.globalData.apiUrl + "/SucaiApi/GetJKSucaiList",
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      success:function(res){
-        _this.setData({
-          pagecount: res.data.pagecount,
-        });
-        Promise.all(res.data.jksucai.map(item => sucaipromise.getSucaiById(item.Id)))
-          .then(function (result) {
-            _this.setData({
-              sclist: result,
-            });
-            console.log(result);
-          });
-
-      },
+    _this.setData({
+      title: options.title
     })
-  
+    _this.GetSucaiByCate(options.cate);
+    console.log(options.cate)
+    console.log(options.title)
   },
 
   /**
@@ -94,9 +79,26 @@ Page({
       index: e.detail.value
     })
   },
-  navsucai:function(e){
-    wx.navigateTo({
-      url: '../../pages/sclist/sclist?cate=' + e.currentTarget.id + '&title=' + e.currentTarget.dataset.title
+  GetSucaiByCate:function(cate){
+    var _this = this;
+    wx.request({
+      url: app.globalData.apiUrl + "/SucaiApi/GetJKSucaiListByCate?cate=" + cate,
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      success: function (res) {
+        _this.setData({
+          pagecount: res.data.pagecount,
+        });
+        Promise.all(res.data.jksucai.map(item => sucaipromise.getSucaiById(item.Id)))
+          .then(function (result) {
+            _this.setData({
+              sclist: result,
+            });
+            console.log(result);
+          });
+
+      },
     })
   }
 })

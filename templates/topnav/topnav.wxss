@@ -1,23 +1,24 @@
-/* pages/sucai/sucai.wxss */
-@import "../../templates/bottom/bottom.wxss";
 
 .scollcontainer{
+  margin-top: 0px;
   white-space: nowrap;
   width: 100%;
   display: flex;
   padding-top: 5px;
   padding-bottom: 5px;
+  position: fixed;
+  z-index: 999;
 }
 .scrollitem{
-  width: 60px;
-  height: 60px;
-  margin: 8px;
+  width: 80px;
+  height: 30px;
+  margin: 3px;
   display: inline-block;
-
 }
+
 .scrollitem-img{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 30px;
   border: 1px solid #cccccc;
-  border-radius: 10px;
+  border-radius: 5px;
 }
