@@ -56,3 +56,7 @@ button{
   font-size: 14pt;
   height: 25px;
 }
+
+.btnshare{
+  line-height: 50px;
+}

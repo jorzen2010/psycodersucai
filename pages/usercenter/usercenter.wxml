@@ -83,12 +83,10 @@
 <view class='list-item'>
 <view class='list-item-title'>
 <image src='../../src/images/help.png' class='list-item-icon'></image>
-<button open-type="share">帮助中心</button>
+<button open-type="share" class='btnshare'>帮助中心</button>
 </view>
 <image src='../../src/images/more.png' class='list-item-icon'></image>
 </view>
-
-
 
 
 </view>
