@@ -99,5 +99,29 @@ Page({
       },
     })
   },
+  NavContent: function (e) {
+    var _type = e.currentTarget.dataset.type;
+    var _sid = e.currentTarget.dataset.sid;
 
+   
+    if (_type=="shipin")
+    {
+      console.log("视频" + _sid);
+      wx.navigateTo({
+        url: '../../pages/videoview/videoview?id=' + _sid,
+      })
+    }
+    if (_type == "yinpin") {
+      console.log("音频" + _sid);
+      wx.navigateTo({
+        url: '../../pages/audioview/audioview?id=' + _sid,
+      })
+    }
+    if (_type == "tupian") {
+      console.log("图片" + _sid);
+      wx.navigateTo({
+        url: '../../pages/content/content?id='+_sid,
+      })
+    }
+  }
 })

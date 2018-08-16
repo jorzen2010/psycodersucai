@@ -42,9 +42,6 @@
 <image src='../../src/images/more.png' class='list-item-icon'></image>
 </view>
 
-
-
-
 </view>
 
 <view class='listcontainer whitebg'>
@@ -54,9 +51,7 @@
 <image src='../../src/images/tuijian.png' class='list-item-icon'></image>
 <text class='list-item-text'>账号设置</text>
 </view>
-
 <image src='../../src/images/more.png' class='list-item-icon'></image>
-
 </view>
 
 <view class='list-item'>
@@ -64,12 +59,8 @@
 <image src='../../src/images/tuijian.png' class='list-item-icon'></image>
 <text class='list-item-text'>通知中心</text>
 </view>
-
 <image src='../../src/images/more.png' class='list-item-icon'></image>
-
 </view>
-
-
 
 <view class='list-item'>
 <view class='list-item-title'>

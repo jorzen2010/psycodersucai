@@ -1,0 +1,36 @@
+ @import "../../utils/wxParse/wxParse.wxss"; 
+ page{
+  background-color: #eeeeee;
+}
+.content_container{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.title{
+  font-size: 17pt;
+  font-weight: 500;
+  color: #353535;
+  line-height: 24pt;
+}
+.author{
+  font-size: 10pt;
+  color: #888888;
+}
+.content{
+  font-size: 12pt;
+  line-height: 30px;
+  color: #888888;
+}
+.time{
+  font-size: 10pt;
+  color: #888888;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.adcontainer{
+  padding: 10px;
+  background-color: #eeeeee;
+  font-size: 10pt;
+}

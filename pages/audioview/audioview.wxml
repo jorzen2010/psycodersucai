@@ -1,0 +1,39 @@
+<view class='audiocontainer'>
+
+<!-- 播放器开始 -->
+<view class='audiobofangqi'>
+<view class='audio_title'>
+<text>{{sucai.Title}}</text>
+</view>
+<view  class='bofangqi_cover_container'>
+<image src='{{imgpre}}{{sucai.Cover}}' mode='scaleToFill'  class='bofangqi_cover' animation="{{animation}}"></image> 
+</view>
+<progress percent="{{percent}}" stroke-width="8" activeColor="#ff0000" backgroundColor="#cccccc"  /> 
+<view class='audio_time'>
+<text>{{currentTime}}/{{duration}}
+</text>
+</view>
+<view class='bofangqibtn'>
+<image src='../../src/images/bofanglist.png' class='audio_btn' bindtap="audiolist" ></image>
+<image src='../../src/images/fast-backward.png'   bindtap="audiobackward"  class='audio_btn'></image>
+<block wx:if="{{ifcanplay}}">
+<image src='../../src/images/play.png'   bindtap="audioPlay" class='audio_btn'></image>
+</block>
+<block wx:if="{{!ifcanplay}}">
+<image src='../../src/images/pause.png'  bindtap="audioPause" class='audio_btn'></image>   
+</block>
+<image src='../../src/images/fast-forward.png'  bindtap="audioforward" class='audio_btn'></image>
+<image src='../../src/images/Message.png'   class='audio_btn'  bindtap='audiozixun'></image>
+</view>
+</view>
+<!-- 播放器结束 -->
+
+<view class='audioinfo'>
+<text  class='audioinfo_title'>课程简介</text>
+<view  class='audioinfo_content'>
+{{sucai.Info}}
+</view>
+</view>
+
+</view>
+

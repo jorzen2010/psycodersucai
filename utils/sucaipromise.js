@@ -14,7 +14,22 @@ const getSucaiById = (sid) => new Promise((resolve) => {
 });
 
 
+const getVideoSucaiById = (cid) => new Promise((resolve) => {
+
+  wx.request({
+    url: app.globalData.apiUrl + '/SucaiApi/GetJkVideoSucai?cid=' + cid,
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    success: function (res) {
+      resolve(res);
+    }
+  });
+
+});
+
 //暴露接口给外部使用
 module.exports = {
-  getSucaiById: getSucaiById
+  getSucaiById: getSucaiById,
+  getVideoSucaiById: getVideoSucaiById
 }

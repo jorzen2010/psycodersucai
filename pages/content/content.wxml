@@ -1,0 +1,28 @@
+<import src="../../utils/wxParse/wxParse.wxml"/>
+<view class='content_container'>
+<text class='title'>{{sucai.Title}}</text>
+<text class='time'>{{sucai.Author}}   {{sucai.CreateTime}}</text>
+
+<block wx:if="{{sucaitype}}">
+<view class='content'>
+<template is="wxParse" data="{{wxParseData:article_content.nodes}}"/>
+</view>
+</block>
+<block wx:if="{{!sucaitype}}">
+这是音视频
+</block>
+<text class='time'>
+{{sucai.CreateTime}}
+</text>
+</view>
+<view class='adcontainer'>
+
+<block wx:if="{{guanggao.GuanggaoType=='文字广告'}}">
+
+<rich-text nodes="{{guanggao.GuanggaoContent}}"></rich-text>
+</block>
+<block wx:if="{{guanggao.GuanggaoType=='图片广告'}}">
+
+<image src='{{imgpre}}{{guanggao.GuanggaoImgSrc}}' mode='aspectFit' style='width:100%'></image>
+</block>
+</view>

@@ -5,7 +5,10 @@
     "pages/discover/discover",
     "pages/usercenter/usercenter",
     "pages/search/search",
-    "pages/sclist/sclist"
+    "pages/sclist/sclist",
+    "pages/content/content",
+    "pages/audioview/audioview",
+    "pages/videoview/videoview"
   ],
   "window":{
     "backgroundTextStyle":"light",
