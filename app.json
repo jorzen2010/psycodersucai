@@ -8,7 +8,8 @@
     "pages/sclist/sclist",
     "pages/content/content",
     "pages/audioview/audioview",
-    "pages/videoview/videoview"
+    "pages/videoview/videoview",
+    "pages/sysnews/sysnews"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -21,15 +22,9 @@
     "list": [
       {
         "pagePath": "pages/sucai/sucai",
-        "text": "首页",
+        "text": "心理素材",
         "selectedIconPath": "src/images/indexfocus.png",
         "iconPath": "src/images/index.png"
-      },
-      {
-        "pagePath": "pages/discover/discover",
-        "text": "随便逛逛",
-        "selectedIconPath": "src/images/discoverfocus.png",
-        "iconPath": "src/images/discover.png"
       },
       {
         "pagePath": "pages/usercenter/usercenter",

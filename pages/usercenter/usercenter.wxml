@@ -5,10 +5,22 @@
 
 <view class='listcontainer whitebg'>
 
-<view class='list-item'>
+<view class='list-item' bindtap="NavContent"  data-sid="1">
 <view class='list-item-title'>
 <image src='../../src/images/VIP.png' class='list-item-icon'></image>
-<text class='list-item-text'>会员申请续费</text>
+<text class='list-item-text'>个人品牌训练营</text>
+</view>
+<image src='../../src/images/more.png' class='list-item-icon'></image>
+</view>
+
+</view>
+
+<view class='listcontainer whitebg' bindtap="contact">
+
+<view class='list-item'>
+<view class='list-item-title'>
+<image src='../../src/images/help.png' class='list-item-icon'></image>
+<text class='list-item-text'>报名训练营</text>
 </view>
 <image src='../../src/images/more.png' class='list-item-icon'></image>
 </view>
@@ -16,6 +28,7 @@
 </view>
 
 
+<!-- 
 <view class='listcontainer whitebg'>
 
 <view class='list-item'>
@@ -77,7 +90,7 @@
 <button open-type="share" class='btnshare'>帮助中心</button>
 </view>
 <image src='../../src/images/more.png' class='list-item-icon'></image>
-</view>
+</view> 
 
 
-</view>
+</view> -->

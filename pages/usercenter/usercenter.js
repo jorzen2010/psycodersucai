@@ -64,4 +64,19 @@ Page({
     console.log('fenxiang');
   
   },
+  NavContent: function (e) {
+    var _sid = e.currentTarget.dataset.sid;
+
+    wx.navigateTo({
+      url: '../../pages/sysnews/sysnews?id=' + _sid,
+    })
+
+  },
+  contact:function(){
+    wx.showModal({
+      title: '报名请联系赵征',
+      content: '请添加微信：sky20100',
+      showCancel:false
+    })
+  }
 })

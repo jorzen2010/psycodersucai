@@ -1,10 +1,10 @@
 <template name="bottom">
 <view class='pagebottom'>
 <view  class='pagebottom-logo'>
-心理讲师素材库
+心理知识素材库
 </view>
 <view class='pagebottom-title'>
-为百万心理讲师提供素材支持
+帮助百万心理讲师打造个人品牌
 </view>
 </view>
 </template>

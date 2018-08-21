@@ -21,10 +21,6 @@ Page({
   onLoad: function (options) {
     var _this=this;
      _this.GetTopSucai();
-
-
-
-  
   },
 
   /**
@@ -83,7 +79,7 @@ Page({
   GetTopSucai:function(){
     var _this = this;
     wx.request({
-      url: app.globalData.apiUrl + "/SucaiApi/GetTopJKSucai?num=3&table=JKSucai&where=Price=0&orderby=Id Desc",
+      url: app.globalData.apiUrl + "/SucaiApi/GetTopJKSucai?num=5&table=JKSucai&where=Price=0&orderby=Id Desc",
       headers: {
         'Content-Type': 'application/json'
       },
@@ -123,5 +119,16 @@ Page({
         url: '../../pages/content/content?id='+_sid,
       })
     }
+    if (_type == "anli") {
+      console.log("案例" + _sid);
+      wx.navigateTo({
+        url: '../../pages/content/content?id=' + _sid,
+      })
+    }
+  },
+  navsucai: function (e) {
+    wx.navigateTo({
+      url: '../../pages/sclist/sclist?keys=' + e.currentTarget.dataset.title
+    })
   }
 })

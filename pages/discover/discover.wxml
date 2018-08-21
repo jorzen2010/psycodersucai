@@ -7,14 +7,14 @@
     <view class='scrollitem' bindtap='navsucai' id='15' data-title='音频素材'><image src="../../src/images/4.png" class='scrollitem-img'></image></view>
 </scroll-view>
 
-<view class='whitebg toppaixu'>
+<!-- <view class='whitebg toppaixu'>
 <text bindtap='NavGo'>排序</text>
 <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" mode="selector">
     <view class="picker">
       按{{array[index]}}排序 <image src='../../src/images/xx.png'></image>
     </view>
   </picker>
-</view>
+</view> -->
 
  <view class='listContainer'>
 <block wx:for="{{sclist}}" wx:key="Id">

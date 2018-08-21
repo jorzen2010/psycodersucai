@@ -4,7 +4,7 @@
     </view>
 <block wx:for="{{sclist}}" wx:key="Id">
 
-      <view class='list_item'>
+      <view class='list_item'  bindtap="NavContent" data-type="{{item.type}}" data-sid="{{item.Id}}">
           <view>
           <image src="{{url}}{{item.Cover}}" mode='scaleToFill' class='list_item_img' />
           </view>

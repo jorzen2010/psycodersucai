@@ -1,0 +1,14 @@
+<import src="../../utils/wxParse/wxParse.wxml"/>
+<view class='content_container'>
+<text class='title'>{{sysnews.Title}}</text>
+<text class='time'>{{sysnews.Author}}   {{sysnews.CreateTime}}</text>
+
+
+<view class='content'>
+<template is="wxParse" data="{{wxParseData:article_content.nodes}}"/>
+</view>
+
+<text class='time'>
+{{sysnews.CreateTime}}
+</text>
+</view>
