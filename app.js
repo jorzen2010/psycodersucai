@@ -35,6 +35,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    apiUrl: "http://localhost:3517"
+  //  apiUrl: "http://localhost:3517",
+    apiUrl: "https://mp.psycoder.zzd123.com"
   }
 })
